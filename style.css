@@ -170,3 +170,65 @@ main {
 .hidden {
   display: none;
 }
+@media (max-width: 768px) {
+  main {
+    width: 35rem;
+    height: 75rem;
+  }
+  .name {
+    font-size: 30px;
+    text-align: center;
+  }
+  .player {
+    height: 300px;
+    margin-top: 110px;
+    padding: 1rem;
+  }
+  .btn--new {
+    margin-top: -30px;
+  }
+  .btn--hold {
+    margin-top: 210px;
+  }
+  .btn--roll {
+    margin-top: 190px;
+  }
+  .current {
+    margin-bottom: 120px;
+  }
+  .dice {
+    margin-top: 280px;
+  }
+}
+@media (max-width: 375px) {
+  main {
+    height: 60rem;
+  }
+  .name {
+    font-size: 25px;
+    text-align: center;
+  }
+  .current-label {
+    font-size: small;
+    text-align: center;
+  }
+  .dice {
+    height: 7rem;
+    margin-top: 260px;
+  }
+  .btn--roll {
+    margin-top: 115px;
+    padding: 3px;
+    font-size: 12px;
+  }
+  .btn--hold {
+    margin-top: 90px;
+    padding: 3px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .current {
+    padding: 1rem;
+  }
+}
